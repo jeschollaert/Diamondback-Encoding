@@ -1,6 +1,8 @@
 Defacto segregation: SGA raps cheerleaders’ policy
 By JEAN HORAN
 Staff writer
+
+
 Student Government Association Cabinet has accused the cheerleaders of de facto segregation and discrimination in a brief submitted yesterday to the judiciary office. Ray Ferrara, SGA treasurer and co-author of the brief, said the brief was “prepared to insure that the defacto segregation that now exists will eventually be corrected.” According to Ferrara, if the court rules in favor of the brief, the cheerleaders will be reorganized to be more representa­tive of the student body. The Cabinet brief against the cheerleaders contains four points of argument;
 • The cheerleaders are not a recognized campus organization,
 • the most recent cheer leading tryouts showed evidence of defacto segregation and discrimi­nation,
