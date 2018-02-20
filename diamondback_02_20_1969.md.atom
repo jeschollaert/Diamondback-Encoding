@@ -11,9 +11,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiHeader>
 <fileDesc>
 
-<titleStmt> </titleStmt>
 <publicationStmt>
-<p>The Diamondback</p>
+!-- The Diamondback, proper markup to note newspaper title? --!
 <pubPlace>College Park, MD</pubPlace>
 <date when="1969-02-20"> February 20, 1969</date>
 </publicationStmt>
@@ -29,7 +28,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <biblScope type="pages">12</biblScope>
     <date when="1969-02-20">Thursday, February 20, 1969</date>
   </bibl>
-
   <msDesc>
       <msIdentifier>
           <repository>University of Maryland University Libraries, College Park MD</repository>
