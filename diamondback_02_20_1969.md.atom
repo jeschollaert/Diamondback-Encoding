@@ -4,7 +4,17 @@
 <fileDesc>
 
 <titleStmt>
-  <title>A Diamondback article</title>
+  <title>A Diamondback article (title of the ditigal file)</title>
+  <author>
+    <persName>
+      <forename>Jeannette</forename>
+      <surname>Schollaert</surname>
+    </persName>
+  </author>
+  <respStmt>Nature of responsibility to the encoding project
+    <persName>Name of contributor(s)</persName>
+    !-- note invisible labor/maintenance --!
+  </respStmt>
 </titleStmt>
 
 <publicationStmt>
