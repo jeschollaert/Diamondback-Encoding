@@ -13,14 +13,14 @@
   </author>
   <respStmt>
     <resp>Encoded by</resp>
-    <persName ref="jes">Jeannette Schollaert</persName>
+    <persName ref="#jes">Jeannette Schollaert</persName>
   </respStmt>
   <respStmt>
     Under the instruction of
     <persName>Matthew Kirschenbaum</persName>
     <persName>Raffaele Viglianti</persName>
     <persName>Jessica H. Lu</persName>
-    <persName>Purdom Linblad</persName>
+    <persName>Purdom Lindblad</persName>
   </respStmt>
   <respStmt>
     Templates provided by <persName>Raffaele Viglianti</persName>
@@ -46,7 +46,6 @@
     <title type="main">Defacto segregation</title>
     <title type="sub">SGA raps cheerleaders' policy</title>
     <author>Jean Horan</author>
-      !-- indicate Staff Writer status --!
     <biblScope type="volume">61</biblScope>
     <biblScope type="number">81</biblScope>
     <biblScope type="pages">12</biblScope>
@@ -59,6 +58,33 @@
         </msIdentifier>
         <physDesc>Article appears on first page of the February 20, 1969 issue, left side of page, above the fold</physDesc>
     </msDesc>
+    <interGrp>
+      <desc>Silences and abscences of women of color students at Maryland</desc>
+      <interp xml:id="SILENCE">Silence</interp>
+      <interp xml:id="ABSENCE">Absence</interp>
+    </interGrp>
+    <encodingDesc>
+      <editorialDesc>Structural formatting has been mostly preserved, including paragraphs and column breaks, and line breaks indicated when interrupting words.</editorialDesc>
+      <projectDesc>This brief project aims to trace the inclusivity of the University of Maryland's cheerleading squad through the lens of the <hi rend="italic">Diamondback</hi>'s coverage of the squad's discrimination in the 1960s and 1970s.</projectDesc>
+      </encodingDesc>
+      <profileDesc>
+          <langUsage>
+              <language ident="en-US">United States English</language>
+          </langUsage>
+          <respStmt>Thank you to <persName> Jessica H. Lu</persName> for sharing the following markup framework for person groups.</respStmt>
+          <personGrp>
+            <persName xml:id="BLKWM">Black Women</persName>
+            <note>This person group is necessary to point to the specific discrimination faced by women of color in social, athletic, academic, and institutional contexts.</note>
+            </personGrp>
+            <personGrp>
+                <persName xml:id="WHTWM">White Women</persName>
+                <note>This person group is necessary to racialize the otherwise neutral language used by the student journalists operating under the assumption that whiteness is the neutral default.</note>
+            </personGrp>
+            <personGrp>
+              <persName xml:id="BLK">Black and African American people</persName>
+              <note>This person group is necessary to point to the positionality of black and African American people beyond potentially simplifying and monolithic language.</note>
+              </personGrp>
+          </profileDesc>
 </sourceDesc>
 </fileDesc>
 </teiHeader>
@@ -75,16 +101,16 @@
   <cb no="1"/>
     <p>
       <orgName><orgName>Student Government Associa­<choice><orig><lb break="no"/>tion</orig><reg>Association</reg></choice></orgName> Cabinet</orgName> has accused the <orgName xml:id="CL">cheerleaders</orgName> of de facto segre<lb break="no"/>gation and discrimination in a <ref type="link to brief">brief</ref> submitted <date when="1969-02-19">yesterday</date> to the <orgName>judiciary office</orgName>.
-      <persName xml:id="RF"><forename>Ray</forename> <surname>Ferrara</surname></persName>, <orgName ref="#SGA" type="acronym">SGA</orgName> <role>treasurer</role> and <role>co-author</role> of the brief, said the brief was “<u who="#RF">prepared to insure that the defacto segregation that now exists will eventually be corrected</u>.” According to <persName ref="#RF">Ferrara</persName>, if the court rules in favor of the brief, the <orgName ref="#CL">cheerleaders</orgName> will be reor­ganized to be more <choice><orig>representa­<lb break="no"/>tive</orig><reg>representative</reg></choice> of the student body. The <orgName ref="#SGA">Cabinet</orgName> brief against the <orgName ref="#CL">cheerleaders</orgName> contains four points of argument;</p>
+      <persName xml:id="RF"><forename>Ray</forename> <surname>Ferrara</surname></persName>, <orgName ref="#SGA" type="acronym">SGA</orgName> <role>treasurer</role> and <role>co-author</role> of the brief, said the brief was “<u who="#RF">prepared to insure that the defacto segregation that now exists will eventually be corrected</u>.” According to <persName ref="#RF">Ferrara</persName>, if the court rules in favor of the brief, the <persName ref="WHTWM"><orgName ref="#CL">cheerleaders</orgName></persName> will be reor­ganized to be more <choice><orig>representa­<lb break="no"/>tive</orig><reg>representative</reg></choice> of the student body. The <orgName ref="#SGA">Cabinet</orgName> brief against the <orgName ref="#CL">cheerleaders</orgName> contains four points of argument;</p>
     <p>
       • The <orgName ref="#CL">cheerleaders</orgName> are not a recognized campus organization,</p>
   <cb no="2"/>
     <p>
       • the most recent <orgName ref="#CL"><choice><orig>cheer<lb break="no"/>leading</orig><reg>cheerleading</reg></choice></orgName> tryouts showed evidence of defacto segregation and <choice><orig>discrimi­<lb break="no"/>nation</orig><reg>discrimination</reg></choice>,</p>
     <p>
-      <choice><orig>0</orig><reg>•</reg></choice> the <orgName ref="#CL">cheerleaders</orgName> maintain that <persName>black</persName> cheerleaders would provide additional financial burden and inconvenience because the squad could no longer stay in <orgName type="Greek Life">sorority</orgName> and <orgName type="Greek Life">fraternity</orgName> houses at <region>southern</region> schools during away games and</p>
+      <choice><orig>0</orig><reg>•</reg></choice> the <orgName ref="#CL">cheerleaders</orgName> maintain that <persName ref="BLKWM">black</persName> cheerleaders would provide additional financial burden and inconvenience because the squad <interp ana="#SILENCE">could no longer stay in <orgName type="Greek Life">sorority</orgName> and <orgName type="Greek Life">fraternity</orgName> houses at <region>southern</region> schools during away games</interp> and</p>
     <p>
-      • the <orgName ref="#CL">cheerleaders</orgName> <ref type="previous Diamondback article">stated</ref> at a fall meeting of the Cabinet that “<u who="cheerleaders">black women’s movements are too fluid and selection of black women would not maintain <choice><orig>con­<lb break="no"/>tinuity</orig><reg>continuity</reg></choice> within the squad</u>.”</p>
+      • the <persName ref="WHTWM"><orgName ref="#CL">cheerleaders</orgName></persName> <ref type="previous Diamondback article">stated</ref> at a fall meeting of the Cabinet that “<u who="cheerleaders"><persName ref="#BLKWM">black women’s</persName> movements are too fluid and selection of black women would not maintain <choice><orig>con­<lb break="no"/>tinuity</orig><reg>continuity</reg></choice> within the squad</u>.”</p>
     <p>
       According to the brief, the <orgName ref="#CL">cheerleaders</orgName> should not be <choice><orig>per­<lb break="no"/>mitted</orig><reg>permitted</reg></choice> to use the name of the University or represent the <choice><orig>stu­<lb break="no"/>dents</orig><reg>students</reg></choice> because they are not a recognized student activity.</p>
   <cb no="3"/>
