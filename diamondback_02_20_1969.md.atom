@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -16,23 +18,29 @@
     <persName ref="#jes">Jeannette Schollaert</persName>
   </respStmt>
   <respStmt>
-    Under the instruction of
+    <resp>Encoded by</resp>
+    <persName ref="#jes">Jeannette Schollaert</persName>
+  </respStmt>
+  <respStmt>
+    <resp>Under the instruction of</resp>
     <persName>Matthew Kirschenbaum</persName>
     <persName>Raffaele Viglianti</persName>
     <persName>Jessica H. Lu</persName>
     <persName>Purdom Lindblad</persName>
   </respStmt>
   <respStmt>
-    Templates provided by <persName>Raffaele Viglianti</persName>
-    and <persName>Jessica H. Lu</persName>
+    <resp>Templates provided by</resp>
+    <persName>Raffaele Viglianti</persName>
+    <persName>Jessica H. Lu</persName>
   </respStmt>
 </titleStmt>
 
 <publicationStmt>
 <publisher>ENGL668 Critical Topics in Digital Studies Course</publisher>
 <respStmt>
-  Led by <persName>Matthew Kirschenbaum</persName>
-  and the staff at <orgName xml:id="MITH">Maryland Instutite for Technology in the Humanities</orgName>
+  <resp>Led by</resp>
+    <persName>Matthew Kirschenbaum</persName>
+    <orgName xml:id="MITH">Maryland Instutite for Technology in the Humanities</orgName>
 </respStmt>
 <pubPlace>
 <settlement>College Park</settlement>,
@@ -46,9 +54,9 @@
     <title type="main">Defacto segregation</title>
     <title type="sub">SGA raps cheerleaders' policy</title>
     <author>Jean Horan</author>
-    <biblScope type="volume">61</biblScope>
-    <biblScope type="number">81</biblScope>
-    <biblScope type="pages">12</biblScope>
+    <biblScope n="volume">61</biblScope>
+    <biblScope n="number">81</biblScope>
+    <biblScope n="pages">12</biblScope>
     <date when="1969-02-20">Thursday, February 20, 1969</date>
   </bibl>
   <msDesc>
@@ -56,7 +64,6 @@
           <repository>University of Maryland University Libraries, College Park MD</repository>
           <collection>UMD Student Newspapers</collection>
         </msIdentifier>
-        <physDesc>Article appears on first page of the February 20, 1969 issue, left side of page, above the fold</physDesc>
     </msDesc>
     <interGrp>
       <desc>Silences and abscences of women of color students at Maryland</desc>
@@ -91,47 +98,47 @@
 
 <text>
 <body>
-  <head rend="left" type="main authorial"><hi rend="bold">Defecto segretation:</hi></head>
+  <head rend="left"><hi rend="bold">Defecto segretation:</hi></head>
   <milestone unit="undeclared" rend="horbar-short-left"/>
   <head rend="left" type="sub"><hi rend="bold"><hi rend="italic">SGA raps cheerleaders' policy</hi></hi></head>
   <byline rend="center"><persName xml:id="JH">JEAN HORAN</persName></byline>
   <byline rend="center">Staff writer</byline>
 
   <div type="article">
-  <cb no="1"/>
+  <cb n="1"/>
     <p>
-      <orgName><orgName>Student Government Associa­<choice><orig><lb break="no"/>tion</orig><reg>Association</reg></choice></orgName> Cabinet</orgName> has accused the <orgName xml:id="CL">cheerleaders</orgName> of de facto segre<lb break="no"/>gation and discrimination in a <ref type="link to brief">brief</ref> submitted <date when="1969-02-19">yesterday</date> to the <orgName>judiciary office</orgName>.
-      <persName xml:id="RF"><forename>Ray</forename> <surname>Ferrara</surname></persName>, <orgName ref="#SGA" type="acronym">SGA</orgName> <role>treasurer</role> and <role>co-author</role> of the brief, said the brief was “<u who="#RF">prepared to insure that the defacto segregation that now exists will eventually be corrected</u>.” According to <persName ref="#RF">Ferrara</persName>, if the court rules in favor of the brief, the <persName ref="WHTWM"><orgName ref="#CL">cheerleaders</orgName></persName> will be reor­ganized to be more <choice><orig>representa­<lb break="no"/>tive</orig><reg>representative</reg></choice> of the student body. The <orgName ref="#SGA">Cabinet</orgName> brief against the <orgName ref="#CL">cheerleaders</orgName> contains four points of argument;</p>
+      <orgName xml:id="SGA">Student Government Associa­<choice><orig><lb break="no"/>tion</orig><reg>Association</reg></choice></orgName> Cabinet has accused the <orgName xml:id="CL">cheerleaders</orgName> of de facto segre<lb break="no"/>gation and discrimination in a brief submitted <date when="1969-02-19">yesterday</date> to the <orgName>judiciary office</orgName>.
+      <persName xml:id="RF"><forename>Ray</forename> <surname>Ferrara</surname></persName>, <orgName ref="#SGA" type="acronym">SGA</orgName> treasurer and co-author of the brief, said the brief was “<q who="#RF">prepared to insure that the defacto segregation that now exists will eventually be corrected</q>.” According to <persName ref="#RF">Ferrara</persName>, if the court rules in favor of the brief, the <persName ref="WHTWM"><orgName ref="#CL">cheerleaders</orgName></persName> will be reor­ganized to be more <choice><orig>representa­<lb break="no"/>tive</orig><reg>representative</reg></choice> of the student body. The <orgName ref="#SGA">Cabinet</orgName> brief against the <orgName ref="#CL">cheerleaders</orgName> contains four points of argument;</p>
     <p>
       • The <orgName ref="#CL">cheerleaders</orgName> are not a recognized campus organization,</p>
-  <cb no="2"/>
+  <cb n="2"/>
     <p>
       • the most recent <orgName ref="#CL"><choice><orig>cheer<lb break="no"/>leading</orig><reg>cheerleading</reg></choice></orgName> tryouts showed evidence of defacto segregation and <choice><orig>discrimi­<lb break="no"/>nation</orig><reg>discrimination</reg></choice>,</p>
     <p>
-      <choice><orig>0</orig><reg>•</reg></choice> the <orgName ref="#CL">cheerleaders</orgName> maintain that <persName ref="BLKWM">black</persName> cheerleaders would provide additional financial burden and inconvenience because the squad <interp ana="#SILENCE">could no longer stay in <orgName type="Greek Life">sorority</orgName> and <orgName type="Greek Life">fraternity</orgName> houses at <region>southern</region> schools during away games</interp> and</p>
+      <choice><orig>0</orig><reg>•</reg></choice> the <orgName ref="#CL">cheerleaders</orgName> maintain that <persName ref="BLKWM">black</persName> cheerleaders would provide additional financial burden and inconvenience because the squad could no longer stay in <orgName>sorority</orgName> and <orgName>fraternity</orgName> houses at <placeName>southern</placeName> schools during away games and</p>
     <p>
-      • the <persName ref="WHTWM"><orgName ref="#CL">cheerleaders</orgName></persName> <ref type="previous Diamondback article">stated</ref> at a fall meeting of the Cabinet that “<u who="cheerleaders"><persName ref="#BLKWM">black women’s</persName> movements are too fluid and selection of black women would not maintain <choice><orig>con­<lb break="no"/>tinuity</orig><reg>continuity</reg></choice> within the squad</u>.”</p>
+      • the <persName ref="WHTWM"><orgName ref="#CL">cheerleaders</orgName></persName> stated at a fall meeting of the Cabinet that “<q who="cheerleaders"><persName ref="#BLKWM">black women’s</persName> movements are too fluid and selection of black women would not maintain <choice><orig>con­<lb break="no"/>tinuity</orig><reg>continuity</reg></choice> within the squad</q>.”</p>
     <p>
       According to the brief, the <orgName ref="#CL">cheerleaders</orgName> should not be <choice><orig>per­<lb break="no"/>mitted</orig><reg>permitted</reg></choice> to use the name of the University or represent the <choice><orig>stu­<lb break="no"/>dents</orig><reg>students</reg></choice> because they are not a recognized student activity.</p>
-  <cb no="3"/>
+  <cb n="3"/>
     <p>
-      Currently, the <orgName ref="#CL">cheerleaders</orgName> are not recognized by <orgName ref="#SGA" type="acronym">SGA</orgName> be­cause they fail to comply with the <ref type="link to RSG requirements">requirement</ref> that student groups must have a constitution.</p>
+      Currently, the <orgName ref="#CL">cheerleaders</orgName> are not recognized by <orgName ref="#SGA">SGA</orgName> be­cause they fail to comply with the requirement that student groups must have a constitution.</p>
     <p>
-      However, according to <persName ref="#RF"><surname><choice><orig>Fer­<lb break="no"/>rara</orig><reg>Ferrara</reg></choice></surname></persName>, <orgName ref="#SGA" type="acronym">SGA</orgName> "<u who="#RF">underwrites</u>" the activities of the <orgName ref="#CL">cheerleaders</orgName>, and provides them with funds.</p>
+      However, according to <persName ref="#RF"><surname><choice><orig>Fer­<lb break="no"/>rara</orig><reg>Ferrara</reg></choice></surname></persName>, <orgName ref="#SGA">SGA</orgName> "<q who="#RF">underwrites</q>" the activities of the <orgName ref="#CL">cheerleaders</orgName>, and provides them with funds.</p>
     <p>
-      <orgName ref="#SGA" type="acronym">SGA</orgName> <role>President</role> <persName xml:id="JF"><forename>Jerry</forename> <surname>Fleischer</surname></persName> said last night that <orgName ref="#SGA" type="acronym">SGA</orgName> will withhold cheerleader funds from now on because they are not a recognized student activity.</p>
+      <orgName ref="#SGA">SGA</orgName> President <persName xml:id="JF"><forename>Jerry</forename> <surname>Fleischer</surname></persName> said last night that <orgName ref="#SGA">SGA</orgName> will withhold cheerleader funds from now on because they are not a recognized student activity.</p>
     <p>
-      "<u who="#JF">We never bothered to check in the fall whether the <choice><orig>cheerlead<lb break="no"/>­ers</orig><reg>cheerleaders</reg></choice> were recognized</u>," he explained. "<u who="#JF">They’ve been on <choice><orig>cam­<lb break="no"/>pus</orig><reg>campus</reg></choice> so long</u>."</p>
+      "<q who="#JF">We never bothered to check in the fall whether the <choice><orig>cheerlead<lb break="no"/>­ers</orig><reg>cheerleaders</reg></choice> were recognized</q>," he explained. "<q who="#JF">They’ve been on <choice><orig>cam­<lb break="no"/>pus</orig><reg>campus</reg></choice> so long</q>."</p>
     <p>
-      Further, the <ref type="link to University of Maryland General and Academic Rules"><orgName ref="#UMD">University</orgName>’s General and Academic Rules</ref> state that, "<u who="#UMD">No organization may represent the <orgName ref="#UMD">University</orgName> without the approval of the <orgName ref="#SGA" type="acronym">SGA</orgName> and the
-  <cb no="4"/>
-    <orgName>Faculty Senate Committee on Student Activities</orgName></u>."</p>
+      Further, the <orgName ref="#UMD">University</orgName>’s General and Academic Rules state that, "<q who="#UMD">No organization may represent the <orgName ref="#UMD">University</orgName> without the approval of the <orgName ref="#SGA" type="acronym">SGA</orgName> and the
+  <cb n="4"/>
+    <orgName>Faculty Senate Committee on Student Activities</orgName></q>."</p>
     <p>
-      Besides denying the <orgName ref="#CL"><choice><orig>cheerlead­<lb break="no"/>ers</orig><reg>cheerleaders</reg></choice></orgName> the right to represent the <orgName ref="#UMD">University</orgName>, the brief also calls for denying the funds on the grounds that they violate the <ref type="link to University of Maryland discrimination policy"><orgName ref="#UMD">University</orgName> policy declarations on discrimination</ref>.</p>
+      Besides denying the <orgName ref="#CL"><choice><orig>cheerlead­<lb break="no"/>ers</orig><reg>cheerleaders</reg></choice></orgName> the right to represent the <orgName ref="#UMD">University</orgName>, the brief also calls for denying the funds on the grounds that they violate the <orgName ref="#UMD">University</orgName> policy declarations on discrimination.</p>
     <p>
       The brief also maintains that since the <orgName ref="#CL">cheerleaders</orgName> are guilty of "clearly discriminatory” selection, they may be cut off from state funds.</p>
     <p>
-      "<u who="#RF">The <region type="state" n="MD">state</region> says that there will be no discrimination and according to the <choice><orig>non-dlscrimi­<lb break="no"/>natory</orig><reg>non-disciminatory</reg></choice> policy of the <orgName>Faculty Senate</orgName> and the <orgName ref="#UMD">University</orgName> <choice><orig>presi<lb break="no"/>­dent</orig><reg>president</reg></choice>, the funds cannot be used where discrimination exists</u>," Ferrara explained.</p>
+      "<q who="#RF">The <region type="state" n="MD">state</region> says that there will be no discrimination and according to the <choice><orig>non-dlscrimi­<lb break="no"/>natory</orig><reg>non-disciminatory</reg></choice> policy of the <orgName>Faculty Senate</orgName> and the <orgName ref="#UMD">University</orgName> <choice><orig>presi<lb break="no"/>­dent</orig><reg>president</reg></choice>, the funds cannot be used where discrimination exists</q>," Ferrara explained.</p>
   </div>
 </body>
 </text>
