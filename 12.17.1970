@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+  <title>Legislature studies cheerleader policies</title>
+  <author>
+    <persName xml:id="jes">
+      <forename>Jeannette</forename>
+      <surname>Schollaert</surname>
+    </persName>
+  </author>
+  <respStmt>
+    <resp>Encoded by</resp>
+    <persName ref="jes">Jeannette Schollaert</persName>
+  </respStmt>
+  <respStmt>
+    Under the instruction of
+    <persName>Matthew Kirschenbaum</persName>
+    <persName>Raffaele Viglianti</persName>
+    <persName>Jessica H. Lu</persName>
+    <persName>Purdom Linblad</persName>
+  </respStmt>
+  <respStmt>
+    Templates provided by <persName>Raffaele Viglianti</persName>
+    and <persName>Jessica H. Lu</persName>
+  </respStmt>
+</titleStmt>
+
+<publicationStmt>
+<publisher>ENGL668 Critical Topics in Digital Studies Course</publisher>
+<respStmt>
+  Led by <persName>Matthew Kirschenbaum</persName>
+  and the staff at <orgName xml:id="MITH">Maryland Instutite for Technology in the Humanities</orgName>
+</respStmt>
+<pubPlace>
+<settlement>College Park</settlement>,
+<region type="state" n="MD">MD</region>
+</pubPlace>
+<date when="2018"> Spring Semester 2018</date>
+</publicationStmt>
+
+<sourceDesc>
+  <bibl>
+    <title type="main">Legislature studies cheerleader policies</title>
+    <author>Not Listed</author>
+    <biblScope type="volume">63</biblScope>
+    <biblScope type="number">68</biblScope>
+    <biblScope type="pages">6</biblScope>
+    <date when="1970-12-17">Thursday, December 17, 1970</date>
+  </bibl>
+  <msDesc>
+      <msIdentifier>
+          <repository>University of Maryland University Libraries, College Park MD</repository>
+          <collection>UMD Student Newspapers</collection>
+        </msIdentifier>
+        <physDesc>Article appears on first page of the December 17, 1970 issue, left side of page, above the fold</physDesc>
+    </msDesc>
+    <!-- <interGrp>
+      <desc></desc>
+    </interGrp> -->
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+
+<text>
+<body>
+  <head rend="left" type="main authorial"><hi rend="bold">Legislature studies cheerleader policies</hi></head>
+
+  <div type="article">
+    <cb no="1"/>
+      <p>
+        <orgName xml:id="SGA">Student Government Association</orgName> Legislature voted last night to conduct an Investigation into the present <orgName xml:id="CHEER">cheerleader</orgName> selection process <choice><orig>be­<lb break="no"/>cause</orig><reg>because</reg></choice> of alleged racial <choice><orig>discrimina­<lb break="no"/>tion</orig><reg>discrimination</reg></choice>.</p>
+      <p>
+        <role type="office">Legislator</role> <persName xml:id="CW"><forename>Cheryl</forename> <surname>Williams</surname></persName>, who proposed the Investigation, charged the 12-member cheerleader selection panel practiced a “<u who="#CW">blatent form of institutional racism</u>” because it did not select any of the seven blacks who tried out for the seven vacant <choice><orig>posi­<lb break="no"/>tions</orig><reg>positions</reg></choice> on the 10-girl squad.</p>
+      <p>
+        According to <persName ref="#CW">Williams</persName>, two of the seven <persName ref="BLK">blacks</persName> <!--ATTRIBUTE IDEA--> made it to the top ten but were not among the girls chosen to fill out the squad. The squad will have no black members next year.</p>
+      <p>
+        Last <date when="1969-12">December</date> <persName xml:id="AS"><forename>Angie</forename> <surname>Sharp</surname></persName> and <persName xml:id="JR"><forename>Jacqueline</forename> <surname>Robinson</surname></persName> became the first <persName>black</persName> cheerleaders on the squad in 30 years. <persName ref="#JR">Robinson</persName> dropped off the squad <date when="1969">last year</date>; <persName ref="#AS">Sharp</persName> will leave in <date when="1971-06">June</date>.</p>
+      <p>
+        In addition, <orgName ref="#SGA">legislature</orgName> is now <choice><orig>draw­<lb break-="no"/>ing</orig><reg>drawing</reg></choice> up a proposal concerning the <choice><orig>stu­<lb break="no"/>dent</orig><reg>student</reg></choice> activity fee to present to <role type ="office">Chancel­lor</role>
+        <persName xml:id="CEB"><forename type="first">Charles</forename> <forename type="middle">E</forename>. <surname>Bishop</surname></persName>’s <orgName ref="Chancellor's Committee">committee</orgName> which <choice><orig>Is</orig><reg>is</reg></choice> studying the question of how the fee should be collected and
+        <choice><orig>dis­<lb break="no"/>tributed</orig><reg>distributed</reg></choice>.</p>
+    <cb no="2"/>
+      <p>
+        The proposal under consideration will recommend that the fee remain mandatory but that it be placed in a revolving account for <orgName type="acronym" ref="#SGA">SGA</orgName> use ex­clusively.</p>
+      <p>
+        The group also expressed concern for student library help.</p>
+      <p>
+        <role type="office">Legislator</role> <persName xml:id="PL"><forename>Pat</forename> <surname>Leer</surname></persName> will head a committee which will meet with <persName ref="#CEB">Bishop</persName> to discuss obtaining funds for staffing the <orgName xml:id="UL">library</orgName> with more students to work in the stacks.</p>
+      <p>
+        <persName ref="#PL">Leer</persName>, who is a <orgName ref="#UL">library</orgName> employee, said the number of student workers has been cut because of a recent library budget cut by the <placeName xml:id="UMD"><choice><orig>Univer­<lb break="no"/>sity</orig><reg>University</reg></choice></placeName>. He claims the reduced amount of help will cause books to be shelved more slowly and make it impossible for students to locate books they need for course work.</p>
+      <p>
+        The <orgName ref="#SGA">legislature</orgName> also endorsed a move by <persName xml:id="JD"><forename>John</forename> <surname>Daly</surname></persName> that the <orgName xml:id="SUB">Student Union Board</orgName> join an association of Student Union Boards of colleges and universities in the <region type="DMV">greater <settlement><choice><orig>Washing­<lb break="no"/>ton</orig><reg>Washington</reg></choice></settlement> area</region>.
+        The association, which will include <orgName xml:id="AU">American</orgName>, <orgName xml:id="CU">Catholic</orgName>, <orgName xml:id="GWU">George Washington</orgName> and <orgName xml:id="GU">Georgetown</orgName> <choice><orig>Univer­<lb break="no"/>sities</orig><reg>Universities</reg></choice> and <orgName xml:id="GMU">George Mason</orgName> College as well as the University, is being <choice><orig>cre­<lb break="no"/>ated</orig><reg>created</reg></choice> to establish greater <choice><orig>coopera­<lb break="no"/>tion</orig><reg>cooperation</reg></choice> in the exchange of informationon student planned events.</p>
+    </div>
+</body>
+</text>
+</TEI>
