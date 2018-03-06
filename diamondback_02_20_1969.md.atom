@@ -22,7 +22,6 @@
     <persName ref="#jes">Jeannette Schollaert</persName>
   </respStmt>
   <respStmt>
-    <!-- Jessica Lu re: interpGrp -->
     <resp>Under the instruction of</resp>
     <persName>Matthew Kirschenbaum</persName>
     <persName>Raffaele Viglianti</persName>
@@ -32,6 +31,9 @@
   <respStmt>
     <resp>Templates provided by</resp>
     <persName>Raffaele Viglianti</persName>
+  </respStmt>
+  <respStmt>
+    <resp>Analytic framework for interpretation groups inspired by</resp>
     <persName>Jessica H. Lu</persName>
   </respStmt>
 </titleStmt>
