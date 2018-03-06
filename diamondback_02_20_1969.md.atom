@@ -22,6 +22,7 @@
     <persName ref="#jes">Jeannette Schollaert</persName>
   </respStmt>
   <respStmt>
+    <!-- Jessica Lu re: interpGrp -->
     <resp>Under the instruction of</resp>
     <persName>Matthew Kirschenbaum</persName>
     <persName>Raffaele Viglianti</persName>
@@ -37,11 +38,6 @@
 
 <publicationStmt>
 <publisher>ENGL668 Critical Topics in Digital Studies Course</publisher>
-<respStmt>
-  <resp>Led by</resp>
-    <persName>Matthew Kirschenbaum</persName>
-    <orgName xml:id="MITH">Maryland Instutite for Technology in the Humanities</orgName>
-</respStmt>
 <pubPlace>
 <settlement>College Park</settlement>,
 <region type="state" n="MD">MD</region>
@@ -65,35 +61,46 @@
           <collection>UMD Student Newspapers</collection>
         </msIdentifier>
     </msDesc>
-    <interGrp>
-      <desc>Silences and abscences of women of color students at Maryland</desc>
-      <interp xml:id="SILENCE">Silence</interp>
-      <interp xml:id="ABSENCE">Absence</interp>
-    </interGrp>
+    <bibl>
+      <interpGrp>
+        <desc>Silences and abscences of women of color students at Maryland</desc>
+        <interp xml:id="SILENCE">Silence</interp>
+        <interp xml:id="ABSENCE">Absence</interp>
+      </interpGrp>
+    </bibl>
+    </sourceDesc>
+    </fileDesc>
     <encodingDesc>
-      <editorialDesc>Structural formatting has been mostly preserved, including paragraphs and column breaks, and line breaks indicated when interrupting words.</editorialDesc>
-      <projectDesc>This brief project aims to trace the inclusivity of the University of Maryland's cheerleading squad through the lens of the <hi rend="italic">Diamondback</hi>'s coverage of the squad's discrimination in the 1960s and 1970s.</projectDesc>
-      </encodingDesc>
-      <profileDesc>
+      <editorialDecl>
+          <p>Structural formatting has been mostly preserved, including paragraphs and column breaks, and line breaks indicated when interrupting words.</p></editorialDecl>
+    <projectDesc>
+          <p>
+            This brief project aims to trace the inclusivity of the University of Maryland's cheerleading squad through the lens of the <hi rend="italic">Diamondback</hi>'s coverage of the squad's discrimination in the 1960s and 1970s.
+          </p>
+    </projectDesc>
+    </encodingDesc>
+    <profileDesc>
           <langUsage>
               <language ident="en-US">United States English</language>
           </langUsage>
-          <respStmt>Thank you to <persName> Jessica H. Lu</persName> for sharing the following markup framework for person groups.</respStmt>
+      <particDesc>
           <personGrp>
             <persName xml:id="BLKWM">Black Women</persName>
-            <note>This person group is necessary to point to the specific discrimination faced by women of color in social, athletic, academic, and institutional contexts.</note>
+              <note>
+                This person group is necessary to point to the specific discrimination faced by women of color in social, athletic, academic, and institutional contexts.</note>
             </personGrp>
             <personGrp>
                 <persName xml:id="WHTWM">White Women</persName>
-                <note>This person group is necessary to racialize the otherwise neutral language used by the student journalists operating under the assumption that whiteness is the neutral default.</note>
+                <note>
+                  This person group is necessary to racialize the otherwise neutral language used by the student journalists operating under the assumption that whiteness is the neutral default.</note>
             </personGrp>
             <personGrp>
               <persName xml:id="BLK">Black and African American people</persName>
-              <note>This person group is necessary to point to the positionality of black and African American people beyond potentially simplifying and monolithic language.</note>
+              <note>
+                This person group is necessary to point to the positionality of black and African American people beyond potentially simplifying and monolithic language.</note>
               </personGrp>
-          </profileDesc>
-</sourceDesc>
-</fileDesc>
+              </particDesc>
+        </profileDesc>
 </teiHeader>
 
 <text>
